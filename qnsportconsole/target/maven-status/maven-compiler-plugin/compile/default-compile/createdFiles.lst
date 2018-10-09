@@ -1,0 +1,7 @@
+console\contorller\OrderController.class
+console\contorller\BrandController.class
+console\contorller\UploadController.class
+console\contorller\IndexController.class
+console\contorller\ProductController.class
+console\contorller\SkuController.class
+console\contorller\StoreController.class

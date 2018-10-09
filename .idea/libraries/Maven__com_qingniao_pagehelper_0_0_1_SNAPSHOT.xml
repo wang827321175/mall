@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.qingniao:pagehelper:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/Program Files/maven/repository/com/qingniao/pagehelper/0.0.1-SNAPSHOT/pagehelper-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Program Files/maven/repository/com/qingniao/pagehelper/0.0.1-SNAPSHOT/pagehelper-0.0.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Program Files/maven/repository/com/qingniao/pagehelper/0.0.1-SNAPSHOT/pagehelper-0.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

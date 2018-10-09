@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qnsportcore:war">
+    <output-path>$PROJECT_DIR$/qnsportcore/target</output-path>
+    <root id="archive" name="qnsport-core-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="qnsportcore:war exploded" />
+    </root>
+  </artifact>
+</component>

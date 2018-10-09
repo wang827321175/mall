@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.BrandMapper">
+
+    <insert id="insertBrand" parameterType="pojo.Brand" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO qnsport_brand(name, description, logo, url, status) VALUES
+        (#{name},#{description},#{logo},#{url},#{status})
+    </insert>
+
+    <sql id="all">
+        id,name,description,logo,url,status
+    </sql>
+
+    <select id="selectcount" resultType="int" parameterType="pojo.BrandExample">
+        SELECT count(*) FROM qnsport_brand
+        <where>
+            <if test="name!=null">
+                AND name LIKE '%${name}%'
+            </if>
+            <if test="status!=null">
+                AND status=#{status}
+            </if>
+        </where>
+    </select>
+    <select id="selectByExample" resultType="pojo.Brand" parameterType="pojo.BrandExample">
+        SELECT <include refid="all"/> FROM qnsport_brand
+        <where>
+            <if test="name!=null">
+                AND name LIKE '%${name}%'
+            </if>
+            <if test="status!=null">
+                AND status=#{status}
+            </if>
+        </where>
+        ORDER BY id DESC
+        limit #{startRow},#{pageSize}
+    </select>
+    <select id="batchDelete" parameterType="long[]">
+        DELETE FROM qnsport_brand WHERE id
+        <foreach collection="array" separator="," open="in (" close=")" item="id">
+            #{id}
+        </foreach>
+    </select>
+    <select id="findbyid" resultType="pojo.Brand">
+        SELECT <include refid="all"/> FROM qnsport_brand WHERE id=#{id}
+    </select>
+    <select id="selectByBrandExample" resultType="pojo.Brand" parameterType="pojo.BrandExample">
+        SELECT <include refid="all"/> FROM qnsport_brand
+        <where>
+            <if test="name!=null">
+                AND name LIKE '%${name}%'
+            </if>
+            <if test="status!=null">
+                AND status=#{status}
+            </if>
+        </where>
+    </select>
+
+    <update id="update" parameterType="pojo.Brand">
+        UPDATE qnsport_brand
+        <set>
+            <if test="name !=null">
+                name = #{name},
+            </if>
+            <if test="description !=null">
+                description = #{description},
+            </if>
+            <if test="url !=null">
+                url = #{url},
+            </if>
+            <if test="logo !=null">
+                logo = #{logo},
+            </if>
+            <if test="status !=null">
+                status = #{status}
+            </if>
+            where id = #{id}
+        </set>
+    </update>
+
+</mapper>

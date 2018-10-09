@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qnsportconsole/qnsportconsole.iml" filepath="$PROJECT_DIR$/qnsportconsole/qnsportconsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qnsportcore/qnsportcore.iml" filepath="$PROJECT_DIR$/qnsportcore/qnsportcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qnsportpartal/qnsportpartal.iml" filepath="$PROJECT_DIR$/qnsportpartal/qnsportpartal.iml" />
+    </modules>
+  </component>
+</project>
