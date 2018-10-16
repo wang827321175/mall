@@ -58,7 +58,10 @@
 <div class="page__bd">
     <div class="weui-cells weui-cells_form">
         <div class="weui-panel weui-panel_access">
-            <div class="weui-panel__hd">订单结算</div>
+            <div class="weui-panel__hd" style="font-size: 20px;height: 18px">
+                <div style="width: 40px;float:left"><a href="javascript:history.back(-1)">返回</a></div>
+                <div style="width: 220px;float:right" text-align="center">订单结算</div>
+            </div>
         </div>
         <table id="myTable" border="1" cellspacing="0" cellpadding="0" style="border-color: lightgrey" width="100%">
             <tr>
@@ -67,7 +70,7 @@
             <tr>
                 <td colspan="5" style="text-align: left">
                     <c:forEach items="${addrList}" var="addr" varStatus="s">
-                        <input type="radio" name="id" value="${addr.id}"
+                        <input type="radio" name="addr" value="${addr.id}"
                                <c:if test="${s.count==1}">checked="checked"</c:if>>
                         &nbsp;&nbsp;
                         ${addr.name}
@@ -83,10 +86,19 @@
             </tr>
             <tr>
                 <td colspan="5" style="text-align: left">
-                    <input type="radio" name="payMentWay" value="0">货到付款<br>
-                    <input type="radio" name="payMentWay" value="1" checked="checked">在线支付<br>
-                    <input type="radio" name="payMentWay" value="2">邮局转账<br>
-                    <input type="radio" name="payMentWay" value="3">公司转账<br>
+                    <input type="radio" name="payMentWay" value="0" onchange="displayInputBox()">货到付款<br>
+                    <input type="radio" name="payMentWay" value="1" checked="checked" onchange="displayInputBox()">在线支付<br>
+                    <input type="radio" name="payMentWay" value="2" onchange="displayInputBox()">邮局转账<br>
+                    <input type="radio" name="payMentWay" value="3" onchange="displayInputBox()">公司转账<br>
+                </td>
+            </tr>
+            <tr id="cashOnDeliveryTitle" style="display: none">
+                <td colspan="5" class="title">货到付款支付方式</td>
+            </tr>
+            <tr id="cashOnDelivery" style="display: none">
+                <td colspan="5" style="text-align: left">
+                    <input type="radio" name="payMentCash" value="1">现金<br>
+                    <input type="radio" name="payMentCash" value="2" checked="checked">POS刷卡<br>
                 </td>
             </tr>
             <tr>
@@ -163,9 +175,6 @@
     <a href="${pageContext.request.contextPath}/index.html?storeId=${storeId}"
        class="weui-btn weui-btn_primary">返回继续购物</a>
 
-
-    <!--相关条款-->
-
     <br>
     <div class="weui-footer">
         <p class="weui-footer__links">
@@ -173,18 +182,31 @@
         </p>
         <p class="weui-footer__text">Copyright &copy; 2008-2018 武汉一张图科技有限公司</p>
     </div>
-
 </div>
-
-
-<script src="https://webapi.amap.com/maps?v=1.3&amp;key=0527fc08a6b9ab7a0d2dacdf50ed20d6&callback=init"></script>
-<!-- UI组件库 1.0 -->
-<script src="//webapi.amap.com/ui/1.0/main.js"></script>
-<script type="text/javascript" src="https://webapi.amap.com/demos/js/liteToolbar.js"></script>
-<script type="text/javascript">
+<script>
     function submitOrder() {
         var total = $("#allTotalPrice").html();
-        alert(total);
+        alert("总价:" + total);
+        var deliver = $("#deliver").html();
+        alert("运费:" + deliver);
+        var addr = $("input[name='addr']:checked").val();
+        alert("地址id:" + addr);
+        var payMentWay = $("input[name='payMentWay']:checked").val();
+        alert("支付方式:" + payMentWay);
+        /* var total = $("#allTotalPrice").html();
+         var total = $("#allTotalPrice").html();
+         var total = $("#allTotalPrice").html();*/
+    }
+
+    function displayInputBox() {
+        var payMentWay = $("input[name='payMentWay']:checked").val();
+        if (payMentWay==0) {
+            $("#cashOnDeliveryTitle").css("display","");
+            $("#cashOnDelivery").css("display","");
+        }else{
+            $("#cashOnDeliveryTitle").css("display","none");
+            $("#cashOnDelivery").css("display","none");
+        }
     }
 </script>
 </body>

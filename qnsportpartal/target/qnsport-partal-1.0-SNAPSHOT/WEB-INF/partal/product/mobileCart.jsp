@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
@@ -18,16 +18,16 @@
     <script type="text/javascript" src="<%=basepath%>/mobile/js/jquery-1.10.2.min.js"></script>
 
     <style type="text/css">
-        body, html, #container {
+        body, html{
             height: 100%;
-            margin: 0px;
+            margin: 0;
         }
 
         .panel {
             background-color: #ddf;
             color: #333;
             border: 1px solid silver;
-            box-shadow: 3px 4px 3px 0px silver;
+            box-shadow: 3px 4px 3px 0 silver;
             position: absolute;
             top: 10px;
             right: 10px;
