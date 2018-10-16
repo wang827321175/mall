@@ -1,3 +1,4 @@
+console\contorller\LoginController.class
 console\contorller\OrderController.class
 console\contorller\BrandController.class
 console\contorller\UploadController.class

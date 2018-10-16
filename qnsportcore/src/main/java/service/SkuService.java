@@ -17,4 +17,11 @@ public interface SkuService {
     Sku loadById(Long id);
 
     float selectPriceByProductId(Long id);
+
+    /**
+     * 查询商品库存
+     * @param cid
+     * @return
+     */
+    int selectUpperLimitByProductId(Long cid);
 }

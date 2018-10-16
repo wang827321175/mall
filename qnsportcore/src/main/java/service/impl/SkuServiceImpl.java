@@ -1,6 +1,5 @@
 package service.impl;
 
-import com.qingniao.common.page.PageInfo;
 import dao.product.ColorMapper;
 import dao.product.ImgMapper;
 import dao.product.ProductMapper;
@@ -9,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pojo.product.*;
-import service.ColorService;
 import service.SkuService;
 
 import java.util.List;
@@ -87,4 +85,8 @@ public class SkuServiceImpl implements SkuService {
         return skuMapper.selectPriceByProductId(id);
     }
 
+    @Override
+    public int selectUpperLimitByProductId(Long cid) {
+        return skuMapper.selectUpperLimitByProductId(cid);
+    }
 }

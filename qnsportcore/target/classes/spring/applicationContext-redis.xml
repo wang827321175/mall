@@ -24,8 +24,8 @@
 
     <bean id="jedisPool" class="redis.clients.jedis.JedisPool" >
         <constructor-arg index="0" ref="jedisPoolConfig" />
-        <!--<constructor-arg index="1" value="192.168.0.4" type="java.lang.String" />-->
-        <constructor-arg index="1" value="106.12.86.128" type="java.lang.String" />
+        <constructor-arg index="1" value="192.168.40.128" type="java.lang.String" />
+        <!--<constructor-arg index="1" value="10.192.168.4" type="java.lang.String" />-->
         <constructor-arg index="2" value="6379" />
     </bean>
 </beans>

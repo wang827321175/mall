@@ -281,6 +281,9 @@
     <select id="selectByProductId" parameterType="java.lang.Long" resultType="pojo.product.Sku">
         select * from  qnsport_sku where product_id=#{id}
     </select>
+    <select id="selectUpperLimitByProductId" parameterType="java.lang.Long" resultType="java.lang.Integer">
+        select max(upper_limit) from qnsport_sku where product_id=#{id}
+    </select>
     <update id="updateByExampleSelective" parameterType="map">
         update qnsport_sku
         <set>

@@ -410,19 +410,21 @@ public class CartController {
      * @return
      */
     @RequestMapping("/cart/addToCart.html")
-    public String addToCart(Cart cart, Model model) {
+    public void addToCart(Cart cart, Model model, HttpServletResponse response) throws IOException {
+        response.setCharacterEncoding("UTF-8");
         String username = "tom";
         cart.setUsername(username);
         cartService.addToCart(cart);
-        model.addAttribute("id", cart.getId());
-        return "redirect:/product/detail.html";
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("msg", "添加成功");
+        response.getWriter().write(jsonObject.toString());
     }
 
     /**
      * 跳转购物车
      *
-     * @param username
-     * @param storeId
+     * @param username 登录的用户名
+     * @param storeId  商店的id
      * @param model
      * @return
      */
@@ -436,27 +438,28 @@ public class CartController {
         float totalPrice = 0f;
         for (int i = 0; i < carts.size(); i++) {
             Long id = carts.get(i).getId();
-            float price = skuService.selectPriceByProductId(id);
+            //查询库存
+            int upperLimit = skuService.selectUpperLimitByProductId(id);
             //商品价格
+            float price = skuService.selectPriceByProductId(id);
             Sku sku = new Sku();
             sku.setProductId(carts.get(i).getId());
             sku.setPrice(price);
+            sku.setUpperLimit(upperLimit);
             Integer count = carts.get(i).getCount();
             totalPrice += count * price;
             skus.add(sku);
-
             Product product = productService.selectByProductId(id);
             //加载sku
             products.add(product);
-
             //购物车每个商品价格小计
             pPriceTotal.put(id, totalPrice);
-
         }
         model.addAttribute("pPriceTotal", pPriceTotal);
         model.addAttribute("totalPrice", totalPrice);
         model.addAttribute("products", products);
         model.addAttribute("skus", skus);
+
 
         model.addAttribute("carts", carts);
         if (storeId != null) {
@@ -466,42 +469,27 @@ public class CartController {
         } else {
             return "/buyer/mobileOrder";
         }
-
     }
 
     /**
      * 购物车数量增减
      *
-     * @param id
-     * @param amount
+     * @param id       商品id
+     * @param amount   购买数量
      * @param response
      * @throws IOException
      */
     @RequestMapping("/cart/addAmount.html")
     public void addAmount(Long id, Integer amount, String username, HttpServletResponse response) throws IOException {
-        JSONObject json = new JSONObject();
         //修改数据库中的数据
         Cart cart = cartService.selectById(id);
+        //查询商品库存数量
         cart.setCount(amount);
         cartService.updateCount(cart);
-
         //修改页面显示的总价
-        //根据id找出价格
-        float totalPrice = 0;
-        List<Cart> carts = cartService.selectByUsername(username);
-        for (int i = 0; i < carts.size(); i++) {
-            Long cid = carts.get(i).getId();
-            float price = skuService.selectPriceByProductId(cid);
-            Integer count = cartService.selectById(cid).getCount();
-            float pPrice = price * count;
-            json.put("pPrice" + i, pPrice);
-            totalPrice += pPrice;
-        }
-
-
+        //根据id找出价格及库存数量
+        JSONObject json = reCalculation(username);
         json.put("amount", amount);
-        json.put("totalPrice", totalPrice);
-
         response.getWriter().write(json.toString());
     }
 
@@ -520,13 +508,17 @@ public class CartController {
         CartCriteria cartCriteria = new CartCriteria();
         cartCriteria.createCriteria().andUsernameEqualTo(username).andIdEqualTo(id);
         cartService.deleteCart(cartCriteria);
-        JSONObject jsonObject = new JSONObject();
+        JSONObject jsonObject = reCalculation(username);
         jsonObject.put("msg", "success");
         response.getWriter().write(jsonObject.toString());
     }
 
-    @RequestMapping("/cart/reCalculation.html")
-    public void reCalculation(String username, HttpServletResponse response) throws IOException {
+    /**
+     * 重新计算购物车中总价
+     * @param username 用户名
+     * @return 该用户购物车中商品总价
+     */
+    private JSONObject reCalculation(String username) {
         JSONObject json = new JSONObject();
         float totalPrice = 0;
         List<Cart> carts = cartService.selectByUsername(username);
@@ -539,8 +531,7 @@ public class CartController {
             totalPrice += pPrice;
         }
         json.put("totalPrice", totalPrice);
-
-        response.getWriter().write(json.toString());
+        return json;
     }
 
     /**
@@ -593,4 +584,5 @@ public class CartController {
 
         return "buyer/mobileOrder";
     }
+
 }

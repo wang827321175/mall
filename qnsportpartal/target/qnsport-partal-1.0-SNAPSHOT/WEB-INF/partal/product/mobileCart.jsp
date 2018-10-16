@@ -52,7 +52,11 @@
 <div class="page__bd">
     <div class="weui-cells weui-cells_form">
         <div class="weui-panel weui-panel_access">
-            <div class="weui-panel__hd">购物车列表</div>
+
+            <div class="weui-panel__hd" style="font-size: 20px;height: 18px">
+                <div style="width: 40px;float:left"><a href="javascript:history.back(-1)">返回</a></div>
+                <div style="width: 220px;float:right" text-align="center">购物车列表</div>
+            </div>
         </div>
         <c:if test="${totalPrice==0}">
             <p style="text-align: center;line-height: 40px;height: 35px">您的购物车中还未添加商品</p>
@@ -62,9 +66,9 @@
 
 
                 <tr>
-                    <th height="30px" width="30%">商品名称</th>
+                    <th height="30px" width="20%">商品名称</th>
                     <th width="13%">价格</th>
-                    <th width="20%">数量</th>
+                    <th width="25%">数量</th>
                     <th width="15%">详情</th>
                     <th width="15%">合计</th>
                     <th>操作</th>
@@ -78,6 +82,7 @@
                             <c:forEach items="${skus}" var="sku">
                                 <c:if test="${sku.productId==cart.id}">
                                     <var id="price${cart.id}">${sku.price}</var>
+                                    <input id="upperLimit${cart.id}" type="hidden" value="${sku.upperLimit}"/>
                                 </c:if>
                             </c:forEach>
                         </td>
@@ -85,7 +90,7 @@
                             <a href="#" onclick="subProductAmount(${cart.id},'${cart.username}')">－</a>
                             <input type="text" class="text" id="amount${cart.id}" value="${cart.count}"
                                    readonly="readonly"
-                                   size="2"/>
+                                   size="1"/>
                             <a href="#" onclick="addProductAmount(${cart.id},'${cart.username}')">＋</a>
                         </td>
                         <td>
@@ -105,8 +110,7 @@
                             </c:forEach>
                         </td>
                         <td>
-                            <a href="#" onclick="delProduct(${cart.id},'${cart.username}');
-                                    reCalculation('${cart.username}')">删除</a>
+                            <a href="#" onclick="delProduct(${cart.id},'${cart.username}')">删除</a>
                             <c:set var="username" value="${cart.username}"/>
                         </td>
                     </tr>
@@ -143,43 +147,36 @@
 
 </div>
 
-
-<script src="https://webapi.amap.com/maps?v=1.3&amp;key=0527fc08a6b9ab7a0d2dacdf50ed20d6&callback=init"></script>
-<!-- UI组件库 1.0 -->
-<script src="//webapi.amap.com/ui/1.0/main.js"></script>
-<script type="text/javascript" src="https://webapi.amap.com/demos/js/liteToolbar.js"></script>
 <script>
+
+
     //增加购物车数量
     function addProductAmount(id, username) {
+        var upperLimit=$("#upperLimit" + id).val();//100
         var num = $("#amount" + id).val();
         num++;
-        if (num == 0) {
-            alert("至少购买一件");
+        //替换数据
+        if (parseInt(num) > parseInt(upperLimit)) {
+            alert("超出库存限制");
             return;
         }
-
-        //替换数据
-        $("#amount" + id).val(num);
         var url = "${pageContext.request.contextPath}/cart/addAmount.html";
         var params = {"id": id, "amount": num, "username": username};
-        $.post(url, params, function (data) {
-            var data = eval("(" + data + ")");
+        $.post(url, params, function (data2) {
+            var data = eval("(" + data2 + ")");
             $("#totalPrice").html(data.totalPrice);
         });
-
-        //获取单价和数量
+        //获取单价
         var price = $("#price" + id).html();
-        var count = $("#amount" + id).val();
-        $("#pPrice" + id).html(price * count);
-
-
+        $("#amount" + id).val(num);
+        $("#pPrice" + id).html(price * num);
     }
 
     //减少购物车数量
     function subProductAmount(id, username) {
         var num = $("#amount" + id).val();
         num--;
-        if (num == 0) {
+        if (parseInt(num) == 0) {
             alert("至少购买一件");
             return;
         }
@@ -187,23 +184,21 @@
         $("#amount" + id).val(num);
         var url = "${pageContext.request.contextPath}/cart/addAmount.html";
         var params = {"id": id, "amount": num, "username": username};
-        $.post(url, params, function (data) {
-            var data = eval("(" + data + ")");
+        $.post(url, params, function (data1) {
+            var data = eval("(" + data1 + ")");
             $("#totalPrice").html(data.totalPrice);
         });
-
-        //获取单价和数量
+        //获取单价
         var price = $("#price" + id).html();
-        var count = $("#amount" + id).val();
-        $("#pPrice" + id).html(price * count);
+        $("#pPrice" + id).html(price * num);
     }
 
     //给删除绑定点击事件,重新计算总价
     function reCalculation(username) {
         var url = "${pageContext.request.contextPath}/cart/reCalculation.html";
         var params = {"username": username};
-        $.post(url, params, function (data) {
-            var data = eval("(" + data + ")");
+        $.post(url, params, function (data4) {
+            var data = eval("(" + data4 + ")");
             $("#totalPrice").html(data.totalPrice);
         });
     }
@@ -212,11 +207,14 @@
     function delProduct(id, username) {
         var message = window.confirm("确定删除吗?")
         if (message) {
-            //window.location.href = "/cart/deleteCart.html?id=" + id + "&username=" + username + "&storeId=" + storeId;
             $.post('${pageContext.request.contextPath}/cart/deleteCart.html', {id: id, username: username},
                 function (data) {
                     if (data.msg == "success") {
                         $("#tr" + id).remove();
+                        $("#totalPrice").html(data.totalPrice);
+                        if (data.totalPrice==0){
+                            window.location.reload()
+                        }
                     }
                 }, "json")
         } else {

@@ -31,4 +31,6 @@ public interface SkuMapper {
     float selectPriceByProductId(Long id);
 
     List<Sku> selectByProductId(Long id);
+
+    int selectUpperLimitByProductId(Long cid);
 }
