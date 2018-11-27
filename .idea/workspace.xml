@@ -9,11 +9,49 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012bc20b-efd3-43af-8f94-ab67712a8b0f" name="Default" comment="测试">
+    <list default="true" id="012bc20b-efd3-43af-8f94-ab67712a8b0f" name="Default" comment="添加货到付款结算选项">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/DetailVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qnsportconsole_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/qnsportconsole_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c82f4fa-8e36-4c3f-afa1-1de9213546dc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportconsole/qnsportconsole.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportconsole/qnsportconsole.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportconsole/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportconsole/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportconsole/target/qnsport-console-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportconsole/target/qnsport-console-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportconsole/target/qnsport-console-1.0-SNAPSHOT/WEB-INF/lib/qnsport-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportconsole/target/qnsport-console-1.0-SNAPSHOT/WEB-INF/lib/qnsport-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/qnsportcore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/qnsportcore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/src/main/java/dao/order/DetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/src/main/java/dao/order/DetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/src/main/java/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/classes/pojo/order/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/classes/pojo/order/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/classes/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/classes/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/classes/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/classes/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportcore/target/qnsport-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportcore/target/qnsport-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/qnsportpartal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/qnsportpartal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/OrderControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/OrderControlller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/buyer/mobileOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/buyer/mobileOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/src/main/webapp/mobile/style/weui.css" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/src/main/webapp/mobile/style/weui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/classes/partal/contorller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/classes/partal/contorller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/classes/partal/contorller/OrderControlller.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/classes/partal/contorller/OrderControlller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/classes/partal/contorller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/classes/partal/contorller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/classes/partal/contorller/OrderControlller.class" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/classes/partal/contorller/OrderControlller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/lib/qnsport-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/lib/qnsport-core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/partal/buyer/mobileOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/partal/buyer/mobileOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/partal/product/mobileCart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/partal/product/mobileCart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/partal/product/mobileProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/WEB-INF/partal/product/mobileProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/mobile/style/weui.css" beforeDir="false" afterPath="$PROJECT_DIR$/qnsportpartal/target/qnsport-partal-1.0-SNAPSHOT/mobile/style/weui.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,68 +168,77 @@
     <session id="1462601111">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="54" />
+          <entry key="project.closed" value="65" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="11" />
-          <entry key="project.open.time.10" value="6" />
-          <entry key="project.open.time.11" value="5" />
+          <entry key="project.open.time.10" value="7" />
+          <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.2" value="10" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="56" />
+          <entry key="project.opened" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="gif" value="4" />
           <entry key="html" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="114" />
-          <entry key="jsp" value="53" />
+          <entry key="java" value="138" />
+          <entry key="jsp" value="62" />
           <entry key="png" value="8" />
-          <entry key="properties" value="39" />
-          <entry key="xml" value="109" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="40" />
+          <entry key="qnsport_addr" value="1" />
+          <entry key="qnsport_order" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="2" />
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="12" />
-          <entry key="JAVA" value="114" />
-          <entry key="JSP" value="53" />
-          <entry key="Properties" value="39" />
-          <entry key="XML" value="109" />
+          <entry key="JAVA" value="138" />
+          <entry key="JSP" value="62" />
+          <entry key="Properties" value="40" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1008" />
-          <entry key="jsp" value="1284" />
+          <entry key="css" value="2" />
+          <entry key="java" value="1909" />
+          <entry key="jsp" value="2772" />
           <entry key="properties" value="343" />
-          <entry key="txt" value="10" />
-          <entry key="xml" value="279" />
+          <entry key="txt" value="32" />
+          <entry key="xml" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1008" />
-          <entry key="JSP" value="1284" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="CSS" value="2" />
+          <entry key="JAVA" value="1909" />
+          <entry key="JSP" value="2772" />
+          <entry key="PLAIN_TEXT" value="32" />
           <entry key="Properties" value="343" />
-          <entry key="XML" value="279" />
+          <entry key="XML" value="295" />
         </counts>
       </usages-collector>
     </session>
@@ -201,35 +248,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileCart.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="58" column="18" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/UploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="65" column="55" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/webapp/WEB-INF/console/product/add.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/productOrder.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/productDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="100" column="59" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="59" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2492#2493#0" expanded="true" />
+                <element signature="e#2557#2558#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/buyer/mobileOrder.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/DetailVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3876">
-              <caret line="204" column="48" selection-start-line="204" selection-start-column="48" selection-end-line="204" selection-end-column="48" />
+            <state relative-caret-position="165">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#4;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#7;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,9 +339,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>handler</find>
-      <find>销量</find>
-      <find>&lt;#</find>
       <find>input</find>
       <find>修改</find>
       <find>min</find>
@@ -280,6 +366,9 @@
       <find>upper</find>
       <find>selectUpper</find>
       <find>mark_</find>
+      <find>hidden</find>
+      <find>jedis</find>
+      <find>/uploadImg.do</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -295,16 +384,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/ColorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/productDetail.jsp" />
-        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/ImgService.java" />
-        <option value="$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/ProductController.java" />
-        <option value="$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/UploadController.java" />
-        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/ImgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/mobile/style/weui.css" />
-        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/cart/Cart.java" />
-        <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/dao/cart/CartMapper.xml" />
-        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/dao/cart/CartMapper.java" />
         <option value="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/ProductController.java" />
         <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/cart.jsp" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/AddrService.java" />
@@ -325,27 +404,37 @@
         <option value="$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/LoginController.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/common/FreemarkerUtils.java" />
         <option value="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/IndexContorller.java" />
-        <option value="$PROJECT_DIR$/qnsportcore/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/qnsportconsole/pom.xml" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/common/SERVER_URL.java" />
         <option value="$PROJECT_DIR$/qnsportconsole/src/main/resources/properties/fastDFS.properties" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-solr.xml" />
-        <option value="$PROJECT_DIR$/qnsportpartal/pom.xml" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/properties/db.properties" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/SkuService.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/product/Sku.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/SkuServiceImpl.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/dao/product/SkuMapper.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/dao/product/SkuMapper.xml" />
-        <option value="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/CartController.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/CartService.java" />
         <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/CartServiceImpl.java" />
         <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProductDetail.jsp" />
-        <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProduct.jsp" />
         <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileCart.jsp" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/Order.java" />
+        <option value="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/CartController.java" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/dao/order/DetailMapper.xml" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/resources/dao/order/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/dao/order/DetailMapper.java" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/Detail.java" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/qnsportcore/pom.xml" />
+        <option value="$PROJECT_DIR$/qnsportpartal/pom.xml" />
+        <option value="$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/DetailVO.java" />
+        <option value="$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/OrderControlller.java" />
         <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/buyer/mobileOrder.jsp" />
+        <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/mobile/style/weui.css" />
+        <option value="$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProduct.jsp" />
       </list>
     </option>
   </component>
@@ -398,25 +487,16 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="qnsport-console" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="qnsport-console" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="qnsport-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="qnsport-partal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-143" />
-    <option name="y" value="57" />
-    <option name="width" value="1510" />
+    <option name="x" value="197" />
+    <option name="y" value="152" />
+    <option name="width" value="1155" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -901,8 +981,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -934,7 +1012,7 @@
               <item name="qnsportconsole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
@@ -942,83 +1020,13 @@
               <item name="qnsportconsole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="contorller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportconsole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -1026,7 +1034,7 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportconsole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -1035,39 +1043,167 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportconsole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="partal" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportconsole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="partal" type="462c0819:PsiDirectoryNode" />
-              <item name="buyer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="partal" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="contorller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsutils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="qnsportpartal" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1076,7 +1212,7 @@
     <property name="SearchEverywhereHistoryKey" value="userMa&#9;FILE&#9;file://E:/idea/所有项目/maven项目/parent/qnsportcore/src/main/java/dao/user/UserMapper.java&#10;arraylist&#9;PSI&#9;JAVA://java.util.ArrayList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539685022521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539851928570" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1485,7 +1621,17 @@
       <workItem from="1539660047821" duration="7788000" />
       <workItem from="1539674674681" duration="435000" />
       <workItem from="1539675141523" duration="77000" />
-      <workItem from="1539675248353" duration="10376000" />
+      <workItem from="1539675248353" duration="10445000" />
+      <workItem from="1539736338417" duration="156000" />
+      <workItem from="1539736569691" duration="11373000" />
+      <workItem from="1539757427549" duration="11756000" />
+      <workItem from="1539822568804" duration="2126000" />
+      <workItem from="1539844192794" duration="7789000" />
+      <workItem from="1540171035595" duration="3621000" />
+      <workItem from="1540778398757" duration="644000" />
+      <workItem from="1540805099669" duration="1159000" />
+      <workItem from="1540866796681" duration="562000" />
+      <workItem from="1542850955427" duration="872000" />
     </task>
     <task id="LOCAL-00001">
       <created>1525792112621</created>
@@ -1550,7 +1696,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539679604022</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加货到付款结算选项">
+      <created>1539685759113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539685759113</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1586,7 +1739,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="683597000" />
+    <option name="totallyTimeSpent" value="723724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1598,7 +1751,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="159" y="123" width="924" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
@@ -1607,13 +1760,13 @@
       <window_info id="Web" order="3" sideWeight="0.47265077" side_tool="true" weight="0.27992633" />
       <window_info id="Favorites" order="4" sideWeight="0.4894434" side_tool="true" weight="0.2727882" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.51055664" visible="true" weight="0.2386059" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.51055664" visible="true" weight="0.50808316" />
       <window_info id="JavaEE:App" order="7" side_tool="true" />
       <window_info id="Structure" order="8" sideWeight="0.5084986" weight="0.29959786" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6487252" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46313673" weight="0.23512748" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.27478755" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.39235127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32909605" />
@@ -1624,7 +1777,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.296034" />
       <window_info anchor="bottom" id="SVN Repositories" order="12" sideWeight="0.4314059" visible="true" weight="0.25641027" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49932975" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49865952" weight="0.34702548" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49865952" weight="0.16713881" />
       <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32909605" />
@@ -1643,49 +1796,6 @@
       <window_info anchor="right" id="BPMNPalette" order="10" />
       <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" weight="0.3295519" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Web" order="3" sideWeight="0.47265077" side_tool="true" weight="0.27992633" />
-      <window_info id="Favorites" order="4" sideWeight="0.4894434" side_tool="true" weight="0.2727882" />
-      <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.51055664" visible="true" weight="0.571231" />
-      <window_info id="JavaEE:App" order="7" side_tool="true" />
-      <window_info id="Structure" order="8" sideWeight="0.5084986" weight="0.29959786" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6487252" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46313673" weight="0.23512748" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.27478755" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32909605" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49932975" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50268096" side_tool="true" weight="0.53966004" />
-      <window_info anchor="bottom" id="Application Servers" order="9" sideWeight="0.49932975" weight="0.3888889" />
-      <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.49932975" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.296034" />
-      <window_info anchor="bottom" id="SVN Repositories" order="12" sideWeight="0.4314059" visible="true" weight="0.25641027" />
-      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49932975" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49865952" weight="0.34702548" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32909605" />
-      <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.3286119" />
-      <window_info anchor="bottom" id="Tail" order="19" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.20643431" />
-      <window_info anchor="right" id="Database" order="5" weight="0.20308311" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" x="188" y="100" width="1638" height="832" id="Documentation" order="9" type="FLOATING" />
-      <window_info anchor="right" id="BPMNPalette" order="10" />
-      <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" weight="0.3295519" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1695,8 +1805,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="添加货到付款结算选项" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加货到付款结算选项" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="skus" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1712,178 +1830,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/common/FastDFSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/common/web/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-server.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/OrderControlller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/buyer/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/IndexContorller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/webapp/WEB-INF/console/product/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="131" column="35" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportconsole/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="137" column="35" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/webapp/WEB-INF/template/productDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1910,20 +1857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/productOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1990,24 +1923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="69" column="28" lean-forward="true" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding>
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="509" column="45" selection-start-line="509" selection-start-column="45" selection-end-line="509" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/mobile/style/weui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1361" column="1" selection-start-line="1361" selection-start-column="1" selection-end-line="1361" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -2015,18 +1930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="178" column="9" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2037,33 +1940,212 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/pojo/cart/UserCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7c82f4fa-8e36-4c3f-afa1-1de9213546dc/schema/qnsport/table/qnsport_order" />
+    <entry file="das://7c82f4fa-8e36-4c3f-afa1-1de9213546dc/schema/qnsport/table/qnsport_addr" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b0fa3e25-bea0-42fb-8a27-514aec5cb93b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="578" column="42" selection-start-line="578" selection-start-column="42" selection-end-line="578" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/dao/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/dao/order/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/dao/order/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/dao/order/DetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/DetailCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/Detail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="181" column="21" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="204" column="43" selection-start-line="204" selection-start-column="43" selection-end-line="204" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/dao/order/DetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/java/partal/contorller/OrderControlller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/mobile/style/weui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1357" column="15" selection-start-line="1357" selection-start-column="15" selection-end-line="1357" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/maven/repository/redis/clients/jedis/2.6.2/jedis-2.6.2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="243" column="30" lean-forward="true" selection-start-line="243" selection-start-column="30" selection-end-line="243" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileCart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="449">
+          <caret line="82" column="71" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/buyer/mobileOrder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="204" column="48" selection-start-line="204" selection-start-column="48" selection-end-line="204" selection-end-column="48" />
+        <state relative-caret-position="4446">
+          <caret line="247" column="30" selection-start-line="247" selection-start-column="30" selection-end-line="247" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/properties/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/maven/repository/redis/clients/jedis/2.6.2/jedis-2.6.2-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/mobileProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/productOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportpartal/src/main/webapp/WEB-INF/partal/product/productDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="100" column="59" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="59" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#4;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#7;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/pojo/order/DetailVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/webapp/WEB-INF/console/product/add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportconsole/src/main/java/console/contorller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="65" column="55" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/java/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnsportcore/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
         </state>
       </provider>
     </entry>

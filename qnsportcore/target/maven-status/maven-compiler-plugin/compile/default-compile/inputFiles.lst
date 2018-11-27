@@ -26,6 +26,7 @@ D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\pojo\product\Sku.java
 D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\pojo\product\ImgCriteria.java
 D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\service\impl\LoginServiceImpl.java
 D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\service\ProductService.java
+D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\pojo\order\DetailVO.java
 D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\dao\product\FeatureMapper.java
 D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\service\impl\ImgServiceImpl.java
 D:\代码\IdeaProjects\parent\qnsportcore\src\main\java\dao\order\OrderMapper.java

@@ -10,6 +10,7 @@
           <element id="archive" name="qnsport-core-1.0-SNAPSHOT.jar">
             <element id="module-output" name="qnsportcore" />
           </element>
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
           <element id="library" level="project" name="Maven: junit:junit:4.9" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.0.RELEASE" />

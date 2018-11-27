@@ -54,7 +54,7 @@
 
 </head>
 <body ontouchstart>
-
+<input type="hidden" id="username" name="username" value="${username}"/>
 <div class="page__bd">
     <div class="weui-cells weui-cells_form">
         <div class="weui-panel weui-panel_access">
@@ -87,7 +87,8 @@
             <tr>
                 <td colspan="5" style="text-align: left">
                     <input type="radio" name="payMentWay" value="0" onchange="displayInputBox()">货到付款<br>
-                    <input type="radio" name="payMentWay" value="1" checked="checked" onchange="displayInputBox()">在线支付<br>
+                    <input type="radio" name="payMentWay" value="1" checked="checked"
+                           onchange="displayInputBox()">在线支付<br>
                     <input type="radio" name="payMentWay" value="2" onchange="displayInputBox()">邮局转账<br>
                     <input type="radio" name="payMentWay" value="3" onchange="displayInputBox()">公司转账<br>
                 </td>
@@ -97,8 +98,8 @@
             </tr>
             <tr id="cashOnDelivery" style="display: none">
                 <td colspan="5" style="text-align: left">
-                    <input type="radio" name="payMentCash" value="1">现金<br>
-                    <input type="radio" name="payMentCash" value="2" checked="checked">POS刷卡<br>
+                    <input type="radio" id="payMentCash1" name="payMentCash" value="1">现金<br>
+                    <input type="radio" name="payMentCash" value="2">POS刷卡<br>
                 </td>
             </tr>
             <tr>
@@ -110,8 +111,13 @@
             <td width="15%">详情</td>
             <td width="15%">合计</td>
             <c:forEach items="${carts}" var="cart">
+                <input id="cart${cart.id}" name="cartId" type="hidden" value="${cart.id}"/>
                 <tr id="tr${cart.id}">
-                    <td>${cart.name}</td>
+                    <td>
+                        <var id="name${cart.id}">
+                                ${cart.name}
+                        </var>
+                    </td>
                     <td>
                         <c:forEach items="${skus}" var="sku">
                             <c:if test="${sku.productId==cart.id}">
@@ -120,14 +126,16 @@
                         </c:forEach>
                     </td>
                     <td>
-                        <var>${cart.count}</var>
+                        <var id="count${cart.id}">${cart.count}</var>
                     </td>
                     <td>
-                        <c:forEach items="${products}" var="product">
-                            <c:if test="${product.id==cart.id}">
-                                ${product.sizes}
-                            </c:if>
-                        </c:forEach>
+                        <var id="size${cart.id}">
+                            <c:forEach items="${products}" var="product">
+                                <c:if test="${product.id==cart.id}">
+                                    ${product.sizes}
+                                </c:if>
+                            </c:forEach>
+                        </var>
                     </td>
                     <td>
                         <c:forEach items="${pPriceTotal}" var="item">
@@ -185,27 +193,66 @@
 </div>
 <script>
     function submitOrder() {
-        var total = $("#allTotalPrice").html();
-        alert("总价:" + total);
-        var deliver = $("#deliver").html();
-        alert("运费:" + deliver);
-        var addr = $("input[name='addr']:checked").val();
-        alert("地址id:" + addr);
-        var payMentWay = $("input[name='payMentWay']:checked").val();
-        alert("支付方式:" + payMentWay);
-        /* var total = $("#allTotalPrice").html();
-         var total = $("#allTotalPrice").html();
-         var total = $("#allTotalPrice").html();*/
+        var total = $("#allTotalPrice").html();//总价
+        var deliver = $("#deliver").html();//运费
+        var addr = $("input[name='addr']:checked").val();//地址编号
+        var payMentWay = $("input[name='payMentWay']:checked").val();//支付方式
+        var payMentCash = $("input[name=payMentCash]:checked").val();//货到付款支付方式
+        var username = $("#username").val();//用户名
+        //生成订单
+
+        //保存订单详情
+        var cartIds = new Array();
+        var names = new Array();
+        var prices = new Array();
+        var counts = new Array();
+        var sizes = new Array();
+        var val = $("input[name='cartId']").each(function (j, item) {
+            var cartId = item.value;
+            cartIds.push(cartId);//购物车中每项的id和商品id一致
+            var name = $("#name" + cartId).html();
+            names.push(name);
+            var price = $("#price" + cartId).html();
+            prices.push(price);
+            var count = $("#count" + cartId).html();
+            counts.push(count);
+            var size = $("#size" + cartId).html();
+            sizes.push(size);
+        });
+        console.log(cartIds)
+        var url = "${pageContext.request.contextPath}/order/mobileSubmitOrder.html";
+        var pram = {
+            "totalFee": total,
+            "deliverFee": deliver,
+            "isConfirm": addr,
+            "paymentWay": payMentWay,
+            "paymentCash": payMentCash,
+            "buyerId": username,
+
+            "cartIds": cartIds,
+            "names": names,
+            "prices": prices,
+            "counts": counts,
+            "sizes": sizes
+        }
+
+        $.post(url, pram, function (data) {
+            var data1 = eval("(" + data + ")");
+            console.log("Order added successfully 订单号为" + data1.id)
+        })
     }
+
 
     function displayInputBox() {
         var payMentWay = $("input[name='payMentWay']:checked").val();
-        if (payMentWay==0) {
-            $("#cashOnDeliveryTitle").css("display","");
-            $("#cashOnDelivery").css("display","");
-        }else{
-            $("#cashOnDeliveryTitle").css("display","none");
-            $("#cashOnDelivery").css("display","none");
+        if (payMentWay == 0) {
+            $("#cashOnDeliveryTitle").css("display", "");
+            $("#cashOnDelivery").css("display", "");
+            $("#payMentCash1").attr("checked", "checked");
+        } else {
+            $("#cashOnDeliveryTitle").css("display", "none");
+            $("#cashOnDelivery").css("display", "none");
+            $("#payMentCash1").removeAttr("checked");
         }
     }
 </script>

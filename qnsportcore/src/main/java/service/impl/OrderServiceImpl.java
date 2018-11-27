@@ -91,4 +91,25 @@ public class OrderServiceImpl implements OrderService {
     public List<Order> getList(OrderCriteria orderCriteria) {
         return orderMapper.selectByExample(orderCriteria);
     }
+
+    /**
+     * 添加订单及保存详情
+     * @param order
+     * @param detail
+     */
+    @Override
+    public void insertMobileOrder(Order order, Detail detail) {
+        orderMapper.insertSelective(order);
+        detailMapper.insertSelective(detail);
+    }
+
+    /*@Override
+    public void insertMobileOrder(Order order) {
+       orderMapper.insertSelective(order);
+    }*/
+
+    @Override
+    public void insertOrderDetail(Detail detail) {
+        detailMapper.insertSelective(detail);
+    }
 }

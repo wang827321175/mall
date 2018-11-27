@@ -1355,7 +1355,7 @@ i.weui-tabbar__icon,
 }
 .weui-panel__hd {
   padding: 14px 15px 10px;
-  color: #999999;
+  color: black;
   font-size: 13px;
   position: relative;
 }

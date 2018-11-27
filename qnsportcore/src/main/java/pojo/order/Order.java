@@ -40,9 +40,9 @@ public class Order implements Serializable {
     private Integer delivery;
 
     /**
-     * 是否电话确认 1:是  0: 否
+     * 地址编号
      */
-    private Boolean isConfirm;
+    private Integer isConfirm;
 
     /**
      * 支付状态 :0到付1待付款,2已付款,3待退款,4退款成功,5退款失败
@@ -127,11 +127,11 @@ public class Order implements Serializable {
         this.delivery = delivery;
     }
 
-    public Boolean getIsConfirm() {
+    public Integer getIsConfirm() {
         return isConfirm;
     }
 
-    public void setIsConfirm(Boolean isConfirm) {
+    public void setIsConfirm(Integer isConfirm) {
         this.isConfirm = isConfirm;
     }
 

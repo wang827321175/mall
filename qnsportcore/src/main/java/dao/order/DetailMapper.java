@@ -5,6 +5,9 @@ import org.apache.ibatis.annotations.Param;
 import pojo.order.Detail;
 import pojo.order.DetailCriteria;
 
+/**
+ * @author wang
+ */
 public interface DetailMapper {
     int countByExample(DetailCriteria example);
 

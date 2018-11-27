@@ -447,13 +447,14 @@ public class CartController {
             sku.setPrice(price);
             sku.setUpperLimit(upperLimit);
             Integer count = carts.get(i).getCount();
+            float pPrice = count * price;
             totalPrice += count * price;
             skus.add(sku);
             Product product = productService.selectByProductId(id);
             //加载sku
             products.add(product);
             //购物车每个商品价格小计
-            pPriceTotal.put(id, totalPrice);
+            pPriceTotal.put(id, pPrice);
         }
         model.addAttribute("pPriceTotal", pPriceTotal);
         model.addAttribute("totalPrice", totalPrice);
@@ -515,6 +516,7 @@ public class CartController {
 
     /**
      * 重新计算购物车中总价
+     *
      * @param username 用户名
      * @return 该用户购物车中商品总价
      */
@@ -562,6 +564,7 @@ public class CartController {
             sku.setPrice(price);
             //商品数量
             Integer count = carts.get(i).getCount();
+            float pPrice = count * price;
             totalPrice += count * price;
             skus.add(sku);
 
@@ -570,7 +573,7 @@ public class CartController {
             products.add(product);
 
             //购物车每个商品价格小计
-            pPriceTotal.put(id, totalPrice);
+            pPriceTotal.put(id, pPrice);
 
         }
         model.addAttribute("addrList", addrList);
@@ -578,6 +581,7 @@ public class CartController {
         model.addAttribute("totalPrice", totalPrice);
         model.addAttribute("products", products);
         model.addAttribute("skus", skus);
+        model.addAttribute("username", username);
 
         model.addAttribute("carts", carts);
         model.addAttribute("storeId", storeId);
